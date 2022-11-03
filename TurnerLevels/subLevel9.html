@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function initialize(){
+            messageOutput = document.getElementById("output");
+            message = "";
+        }
+        function display(){
+            messageOutput.innerHTML = message;
+        }
+        function addA(){
+            message +=  "A";
+            display();
+        }
+        function addCharacters(x){
+            message += (x);
+            display();
+        }
+    </script>
+</head>
+<body onload="initialize();">
+    <div id = "output"></div>
+    <hr />
+    <button onclick="addCharacters('0');">0</button>
+    <button onclick="addCharacters('1');">1</button>
+    <button onclick="addCharacters('2');">2</button>
+    <button onclick="addCharacters('3');">3</button>
+    <button onclick="addCharacters('4');">4</button>
+    <button onclick="addCharacters('5');">5</button>
+    <button onclick="addCharacters('6');">6</button>
+    <button onclick="addCharacters('7');">7</button>
+    <button onclick="addCharacters('8');">8</button>
+    <button onclick="addCharacters('9');">9</button>
+    <br>
+    <button onclick="addCharacters('A');">A</button>
+    <button onclick="addCharacters('B');">B</button>
+    <button onclick="addCharacters('C');">C</button>
+    <button onclick="addCharacters('D');">D</button>
+    <button onclick="addCharacters('E');">E</button>
+    <button onclick="addCharacters('F');">F</button>
+    <button onclick="addCharacters('G');">G</button>
+    <button onclick="addCharacters('H');">H</button>
+    <button onclick="addCharacters('I');">I</button>
+    <button onclick="addCharacters('J');">J</button>
+    <button onclick="addCharacters('K');">K</button>
+    <button onclick="addCharacters('L');">L</button>
+    <button onclick="addCharacters('M')">M</button>
+    <button onclick="addCharacters('N');">N</button>
+    <button onclick="addCharacters('O')">O</button>
+    <button onclick="addCharacters('P');">P</button>
+    <button onclick="addCharacters('Q');">Q</button>
+    <button onclick="addCharacters('R');">R</button>
+    <button onclick="addCharacters('S');">S</button>
+    <button onclick="addCharacters('T');">T</button>
+    <button onclick="addCharacters('U');">U</button>
+    <button onclick="addCharacters('V');">V</button>
+    <button onclick="addCharacters('W');">W</button>
+    <button onclick="aaddCharacters('X');">X</button>
+    <button onclick="addCharacters('Y');">Y</button>
+    <button onclick="addCharacters('Z');">Z</button>
+    
+</body>
+</html>
